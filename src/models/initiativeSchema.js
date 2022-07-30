@@ -29,6 +29,10 @@ const initiativeSchema = new mongoose.Schema({
   contactInfo: {
     type: String,
     required: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
   }
 });
 

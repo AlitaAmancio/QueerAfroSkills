@@ -24,7 +24,7 @@ const companySchema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    defaut: new Date()
+    default: Date.now
   }
 });
 
