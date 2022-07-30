@@ -6,7 +6,7 @@
 
 # Queer Afro Skills
 
-Projeto final que conclui o curso da @reprograma "Todas em Tech". Idealizado e desenvolvido pela aluna negra e trans Alita Amancio, da turma On15, com o apoio e supervisão da professora Hannah Freitas.
+Projeto final que conclui o curso da @reprograma "Todas em Tech". Idealizado e desenvolvido pela aluna negra e trans Alita Amancio, da turma On15, com o apoio e supervisão da professora [Hannah Freitas](https://www.linkedin.com/in/hannahcfreitas/).
 
 # Sobre o Projeto
 
@@ -223,6 +223,7 @@ Rotas de Iniciativa
 
 * Desenvolvimento do sistema de "roles", especificando o que cada papel pode fazer dentro da API depois de autenticado.
 * Criação dos testes para as funções atuais e futuras implementações.
+* Desenvolvimento de um front-end para o projeto.
 
 # LinkedIn
 
@@ -230,5 +231,5 @@ Rotas de Iniciativa
 
 # Agradecimentos
 
-Quero agradecer imensamente à @Reprograma pela oportunidade, logo nas primeiras semanas eu nunca imaginaria que seria capaz de desenvolver um projeto como esse, cresci como programadora e como pessoa. Sou extremamente grata a todas as minhas professoras, colegas de classe e facilitadora, tanto pelos ensinamentos, como por todo carinho e apoio. Também quero agradecer as minhas amigas Bianca e Larissa pela inspiração para o nome, a logo e por me ceder a máquina em que o projeto foi criado. Todas vocês são extremamente especiais para mim, obrigada!
+Quero agradecer imensamente à @Reprograma pela oportunidade, logo nas primeiras semanas eu nunca imaginaria que seria capaz de desenvolver um projeto como esse, cresci como programadora e como pessoa. Sou extremamente grata a todas as minhas professoras, colegas de classe e facilitadora, tanto pelos ensinamentos, como por todo carinho e apoio. Também quero agradecer as minhas amigas [Bianca](https://www.linkedin.com/in/kotona) (designer) e [Larissa](https://www.linkedin.com/in/larissasoaresaoki) (programadora front-end) pela inspiração para o nome, a logo, também pelo apoio durante a construção e por me ceder a máquina em que o projeto foi criado. Todas vocês são extremamente especiais para mim, obrigada!
 
