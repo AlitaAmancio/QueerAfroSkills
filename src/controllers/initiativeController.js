@@ -1,14 +1,11 @@
 const initiativeSchema = require("../models/initiativeSchema");
 
 const findAllInitiatives = async(request, response) => {
-  // retornar todos 
-  // e/ou retorna por artista
-  // e/ou retornar por titulo
+ 
   const { title, description,  } = request.query
   
   let query = {}
   
-  // music.aritsta.toLowerCase().includes(artist.toLowercase()) -> ignore case
   if (title) query.title = new RegExp(title, 'i')
 
   if (description) query.description = new RegExp(description, 'i')
