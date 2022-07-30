@@ -89,6 +89,12 @@ OBSERVAÇÃO: As dependencias "accesscontrol", "jest" e "supertest" foram instal
 ```
 
 # Rotas
+* Heroku: https://queerafroskills.herokuapp.com/
+* Rota Heroku Listar Empresas: https://queerafroskills.herokuapp.com/company/all
+* Rota Heroku Listar Usuários: https://queerafroskills.herokuapp.com/users/all
+* Rota Heroku Listar Iniciativas: https://queerafroskills.herokuapp.com/initiative/all
+
+Os endpoints da API podem ser testados através do Postman.
 
 Rotas de Usuário Empresa
  
@@ -123,4 +129,106 @@ Rotas de Iniciativa
 |         PATCH       |  /initiative/update/:id |  Atualiza uma iniciativa pelo Id (Necessário autenticação) |
 |        DELETE       |  /initiative/delete/:id |  Deleta uma iniciativa pelo Id (Necessário autenticação) |
 
-*OBSERVAÇÃO: A rota /initiative/all/  aceita 
+*OBSERVAÇÃO: A rota "/initiative/all/"  aceita após a barra mais um texto para pesquisa, podendo buscar por correspondências semelhantes no título ou descrição da iniciativa.
+
+# Dados para a Collection Company
+
+* id: autogerado e obrigatório
+* name: string e obrigatório
+* email: string e obrigatório
+* password: string e obrigatório
+* phoneNumber: string 
+* description: string 
+* createdAt: data gerada automaticamente
+
+# API deve retornar o seguinte Json
+
+```
+{
+    "message": "Company User criado com sucesso!",
+    "savedCompany": {
+        "name": "LariLari Empresas",
+        "email": "lariempoutro@email.com",
+        "password": "$2b$10$s2zP7XC5N6sxJ0xDouM/JuRs/XK9JXzZPiC91uavYOrb/5CML9ci.",
+        "phoneNumber": "5555-5555",
+        "description": "Essa é a segunda empresa teste da minha amiga",
+        "_id": "62e49d027cc169a81ff59369",
+        "createdAt": "2022-07-30T02:52:50.991Z",
+        "__v": 0
+    }
+}
+```
+
+# Dados para a Collection Users
+
+* id: autogerado e obrigatório
+* name: string e obrigatório
+* socialName: string 
+* email: string e obrigatório
+* password: string e obrigatório
+* phoneNumber: string 
+* createdAt: data gerada automaticamente
+
+# API deve retornar o seguinte Json
+
+```
+{
+    "message": "User criado com sucesso!",
+    "savedUser": {
+        "name": "Jõao",
+        "socialName": "Joana",
+        "email": "joana2@email.com",
+        "password": "$2b$10$v0XrIwrPAUDQvAjj9Io.7.CuOMqO6/fT4BDf/PWBn3EXkgkm0Rqp2",
+        "phoneNumber": "1234-1234",
+        "_id": "62e49fa75f6f6b69f6519b56",
+        "createdAt": "2022-07-30T03:04:07.355Z",
+        "__v": 0
+    }
+}
+```
+
+# Dados para a Collection Initiative
+
+* id: autogerado e obrigatório
+* title: string e obrigatório
+* description: string e obrigatório
+* modality: string e obrigatório
+* duration: string e obrigatório
+* requirements: string 
+* additionalInfo: string 
+* contactInfo: string 
+* createdAt: data gerada automaticamente
+
+# API deve retornar o seguinte Json
+
+```
+{
+    "message": "Iniciativa criada com sucesso.",
+    "savedInitiative": {
+        "title": "workshop de super super profissionalização",
+        "description": "uma mega opotunidade para você pela empresa TESTE",
+        "modality": " presencial ou online",
+        "duration": "2 meses",
+        "requirements": "nenhum",
+        "additionalInfo": "uma ultra oportunidade",
+        "contactInfo": "www.sitesite.com.br",
+        "_id": "62e4a12fbbda136c05df1cbd",
+        "createdAt": "2022-07-30T03:10:39.686Z",
+        "__v": 0
+    }
+}
+```
+
+# Implementações para o futuro
+
+* Desenvolvimento do sistema de "roles", especificando o que cada papel pode fazer dentro da API depois de autenticado.
+* Criação dos testes para as funções atuais e futuras implementações.
+
+# LinkedIn
+
+* [Alita Amancio](https://www.linkedin.com/in/alita-amancio-9a82b6230/)
+
+# Agradecimentos
+
+Quero agradecer imensamente à @Reprograma pela oportunidade, logo nas primeiras semanas eu nunca imaginaria que seria capaz de desenvolver um projeto como esse, cresci como programadora e como pessoa. Sou extremamente grata a todas as minhas professoras, colegas de classe e facilitadora, tanto pelos ensinamentos, como por todo carinho e apoio. Também quero agradecer as minhas amigas Bianca e Larissa pela inspiração para o nome, a logo e por me ceder a máquina em que o projeto foi criado. Todas vocês são extremamente especiais para mim, obrigada!
+
