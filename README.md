@@ -85,7 +85,6 @@ OBSERVAÇÃO: As dependencias "accesscontrol", "jest" e "supertest" foram instal
    |- 📑 package.json
    |- 📑 Procfile
    |- 📑 README.md
-   |- 📑 roles.js
    |- 📑 server.js
 ```
 
